@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCB93521F90A1D900F6FAE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */; };
+		BFCB93541F90A1D900F6FAE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93531F90A1D900F6FAE9 /* ViewController.swift */; };
+		BFCB93571F90A1D900F6FAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB93551F90A1D900F6FAE9 /* Main.storyboard */; };
+		BFCB93591F90A1D900F6FAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */; };
+		BFCB935C1F90A1D900F6FAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB935A1F90A1D900F6FAE9 /* LaunchScreen.storyboard */; };
+		BFCB93671F90A1D900F6FAE9 /* WilFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */; };
+		BFCB93721F90A1D900F6FAE9 /* WilFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCB93631F90A1D900F6FAE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCB93461F90A1D900F6FAE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCB934D1F90A1D900F6FAE9;
+			remoteInfo = WilFi;
+		};
+		BFCB936E1F90A1D900F6FAE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCB93461F90A1D900F6FAE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCB934D1F90A1D900F6FAE9;
+			remoteInfo = WilFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFCB934E1F90A1D900F6FAE9 /* WilFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFCB93531F90A1D900F6FAE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFCB93561F90A1D900F6FAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCB935B1F90A1D900F6FAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCB935D1F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilFiTests.swift; sourceTree = "<group>"; };
+		BFCB93681F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilFiUITests.swift; sourceTree = "<group>"; };
+		BFCB93731F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCB934B1F90A1D900F6FAE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB935F1F90A1D900F6FAE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB936A1F90A1D900F6FAE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCB93451F90A1D900F6FAE9 = {
+			isa = PBXGroup;
+			children = (
+				BFCB93501F90A1D900F6FAE9 /* WilFi */,
+				BFCB93651F90A1D900F6FAE9 /* WilFiTests */,
+				BFCB93701F90A1D900F6FAE9 /* WilFiUITests */,
+				BFCB934F1F90A1D900F6FAE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCB934F1F90A1D900F6FAE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB934E1F90A1D900F6FAE9 /* WilFi.app */,
+				BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */,
+				BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCB93501F90A1D900F6FAE9 /* WilFi */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */,
+				BFCB93531F90A1D900F6FAE9 /* ViewController.swift */,
+				BFCB93551F90A1D900F6FAE9 /* Main.storyboard */,
+				BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */,
+				BFCB935A1F90A1D900F6FAE9 /* LaunchScreen.storyboard */,
+				BFCB935D1F90A1D900F6FAE9 /* Info.plist */,
+			);
+			path = WilFi;
+			sourceTree = "<group>";
+		};
+		BFCB93651F90A1D900F6FAE9 /* WilFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */,
+				BFCB93681F90A1D900F6FAE9 /* Info.plist */,
+			);
+			path = WilFiTests;
+			sourceTree = "<group>";
+		};
+		BFCB93701F90A1D900F6FAE9 /* WilFiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */,
+				BFCB93731F90A1D900F6FAE9 /* Info.plist */,
+			);
+			path = WilFiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCB934D1F90A1D900F6FAE9 /* WilFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCB93761F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFi" */;
+			buildPhases = (
+				BFCB934A1F90A1D900F6FAE9 /* Sources */,
+				BFCB934B1F90A1D900F6FAE9 /* Frameworks */,
+				BFCB934C1F90A1D900F6FAE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilFi;
+			productName = WilFi;
+			productReference = BFCB934E1F90A1D900F6FAE9 /* WilFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCB93611F90A1D900F6FAE9 /* WilFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCB93791F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiTests" */;
+			buildPhases = (
+				BFCB935E1F90A1D900F6FAE9 /* Sources */,
+				BFCB935F1F90A1D900F6FAE9 /* Frameworks */,
+				BFCB93601F90A1D900F6FAE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCB93641F90A1D900F6FAE9 /* PBXTargetDependency */,
+			);
+			name = WilFiTests;
+			productName = WilFiTests;
+			productReference = BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCB936C1F90A1D900F6FAE9 /* WilFiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCB937C1F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiUITests" */;
+			buildPhases = (
+				BFCB93691F90A1D900F6FAE9 /* Sources */,
+				BFCB936A1F90A1D900F6FAE9 /* Frameworks */,
+				BFCB936B1F90A1D900F6FAE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCB936F1F90A1D900F6FAE9 /* PBXTargetDependency */,
+			);
+			name = WilFiUITests;
+			productName = WilFiUITests;
+			productReference = BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCB93461F90A1D900F6FAE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Fancs;
+				TargetAttributes = {
+					BFCB934D1F90A1D900F6FAE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					BFCB93611F90A1D900F6FAE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFCB934D1F90A1D900F6FAE9;
+					};
+					BFCB936C1F90A1D900F6FAE9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFCB934D1F90A1D900F6FAE9;
+					};
+				};
+			};
+			buildConfigurationList = BFCB93491F90A1D900F6FAE9 /* Build configuration list for PBXProject "WilFi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCB93451F90A1D900F6FAE9;
+			productRefGroup = BFCB934F1F90A1D900F6FAE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCB934D1F90A1D900F6FAE9 /* WilFi */,
+				BFCB93611F90A1D900F6FAE9 /* WilFiTests */,
+				BFCB936C1F90A1D900F6FAE9 /* WilFiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCB934C1F90A1D900F6FAE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB935C1F90A1D900F6FAE9 /* LaunchScreen.storyboard in Resources */,
+				BFCB93591F90A1D900F6FAE9 /* Assets.xcassets in Resources */,
+				BFCB93571F90A1D900F6FAE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB93601F90A1D900F6FAE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB936B1F90A1D900F6FAE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCB934A1F90A1D900F6FAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB93541F90A1D900F6FAE9 /* ViewController.swift in Sources */,
+				BFCB93521F90A1D900F6FAE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB935E1F90A1D900F6FAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB93671F90A1D900F6FAE9 /* WilFiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCB93691F90A1D900F6FAE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB93721F90A1D900F6FAE9 /* WilFiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCB93641F90A1D900F6FAE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCB934D1F90A1D900F6FAE9 /* WilFi */;
+			targetProxy = BFCB93631F90A1D900F6FAE9 /* PBXContainerItemProxy */;
+		};
+		BFCB936F1F90A1D900F6FAE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCB934D1F90A1D900F6FAE9 /* WilFi */;
+			targetProxy = BFCB936E1F90A1D900F6FAE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFCB93551F90A1D900F6FAE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB93561F90A1D900F6FAE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCB935A1F90A1D900F6FAE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB935B1F90A1D900F6FAE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCB93741F90A1D900F6FAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCB93751F90A1D900F6FAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCB93771F90A1D900F6FAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCB93781F90A1D900F6FAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCB937A1F90A1D900F6FAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilFi.app/WilFi";
+			};
+			name = Debug;
+		};
+		BFCB937B1F90A1D900F6FAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilFi.app/WilFi";
+			};
+			name = Release;
+		};
+		BFCB937D1F90A1D900F6FAE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WilFi;
+			};
+			name = Debug;
+		};
+		BFCB937E1F90A1D900F6FAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WilFiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WilFi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCB93491F90A1D900F6FAE9 /* Build configuration list for PBXProject "WilFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB93741F90A1D900F6FAE9 /* Debug */,
+				BFCB93751F90A1D900F6FAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCB93761F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB93771F90A1D900F6FAE9 /* Debug */,
+				BFCB93781F90A1D900F6FAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCB93791F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB937A1F90A1D900F6FAE9 /* Debug */,
+				BFCB937B1F90A1D900F6FAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCB937C1F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB937D1F90A1D900F6FAE9 /* Debug */,
+				BFCB937E1F90A1D900F6FAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCB93461F90A1D900F6FAE9 /* Project object */;
+}
