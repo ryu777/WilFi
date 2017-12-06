@@ -7,33 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11EA08B413017FC192DF06D /* Pods_WilFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466EA4A8F013E7B1F3C6B2C7 /* Pods_WilFi.framework */; };
+		BF11197C1FCD1B2B000C9B96 /* WifiFooterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF11197A1FCD1B2A000C9B96 /* WifiFooterTableViewCell.swift */; };
+		BF11197D1FCD1B2B000C9B96 /* WifiFooterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF11197B1FCD1B2A000C9B96 /* WifiFooterTableViewCell.xib */; };
+		BF20F8921FC4350700FF56C1 /* AppIcon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF20F88C1FC434FA00FF56C1 /* AppIcon2@2x.png */; };
+		BF20F8951FC4350700FF56C1 /* AppIcon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF20F88F1FC4350000FF56C1 /* AppIcon2@3x.png */; };
+		BF20F8961FC4350700FF56C1 /* AppIcon3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF20F8901FC4350100FF56C1 /* AppIcon3@3x.png */; };
+		BF20F8971FC4350700FF56C1 /* AppIcon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF20F8911FC4350200FF56C1 /* AppIcon3@2x.png */; };
+		BF270E271F99B2C800A0A824 /* ConnectingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF270E261F99B2C800A0A824 /* ConnectingViewController.swift */; };
+		BF270E2E1F99C82A00A0A824 /* ConnectingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF270E2D1F99C82A00A0A824 /* ConnectingViewController.xib */; };
+		BF5016D81F9F01BA0057CC3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5016D71F9F01BA0057CC3C /* SystemConfiguration.framework */; };
+		BF5016E51FA02E280057CC3C /* WifiHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5016E41FA02E280057CC3C /* WifiHeaderTableViewCell.xib */; };
+		BF5016E71FA030C70057CC3C /* WifiHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5016E61FA030C70057CC3C /* WifiHeaderTableViewCell.swift */; };
+		BF5016E91FA1C79C0057CC3C /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5016E81FA1C79B0057CC3C /* Server.swift */; };
+		BF5016EB1FA1CDF30057CC3C /* WifiInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5016EA1FA1CDF30057CC3C /* WifiInfo.swift */; };
+		BF5E5B911FB42CE600C1A5E0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF5E5B901FB42CE600C1A5E0 /* Settings.bundle */; };
+		BF6C48751F984D7900011E08 /* WFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C48741F984D7900011E08 /* WFAlertViewController.swift */; };
+		BF6C48781F98592A00011E08 /* WifiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6C48771F98592A00011E08 /* WifiTableViewCell.xib */; };
+		BF6C487A1F98594C00011E08 /* WifiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C48791F98594C00011E08 /* WifiTableViewCell.swift */; };
+		BF711C241FB0509B001692C6 /* WifiTableLoadingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF711C221FB0509B001692C6 /* WifiTableLoadingViewCell.swift */; };
+		BF711C251FB0509B001692C6 /* WifiTableLoadingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF711C231FB0509B001692C6 /* WifiTableLoadingViewCell.xib */; };
+		BF711C2D1FB178E8001692C6 /* WifiTableOtherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF711C2B1FB178E7001692C6 /* WifiTableOtherViewCell.swift */; };
+		BF711C2E1FB17BB0001692C6 /* WifiTableOtherViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF711C2A1FB178E7001692C6 /* WifiTableOtherViewCell.xib */; };
+		BF9C00181FA9956F0060F1D3 /* libTbBTSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9C00171FA9956F0060F1D3 /* libTbBTSDK.a */; };
+		BF9C00211FA9957B0060F1D3 /* OfficialRegion.json in Resources */ = {isa = PBXBuildFile; fileRef = BF9C001A1FA9957B0060F1D3 /* OfficialRegion.json */; };
+		BF9C00221FA9957B0060F1D3 /* TbBTLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9C001D1FA9957B0060F1D3 /* TbBTLocalizable.strings */; };
+		BF9C00231FA9957B0060F1D3 /* TbBTDeveloperPreference.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF9C00201FA9957B0060F1D3 /* TbBTDeveloperPreference.plist */; };
+		BFA3A4BC1FA6F807008AB45C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA3A4BB1FA6F807008AB45C /* NetworkExtension.framework */; };
+		BFA3A4BE1FA702D5008AB45C /* WifiHotSpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3A4BD1FA702D5008AB45C /* WifiHotSpotData.swift */; };
+		BFB5A5201FCD255300EC31DE /* TopRoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5A51F1FCD255300EC31DE /* TopRoundImageView.swift */; };
+		BFB5A5221FCD37F500EC31DE /* WifiTableSectionSeparator.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB5A5211FCD37F500EC31DE /* WifiTableSectionSeparator.xib */; };
+		BFB5A5241FCD3AA000EC31DE /* WifiTableSectionSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB5A5231FCD3AA000EC31DE /* WifiTableSectionSeparator.swift */; };
+		BFB5A5271FCFC3A100EC31DE /* fan2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = BFB5A5261FCFC3A000EC31DE /* fan2.gpx */; };
+		BFC78C611F90A64600492379 /* WifiConnectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC78C601F90A64600492379 /* WifiConnectData.swift */; };
+		BFC78C671F90A92F00492379 /* WFEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC78C661F90A92F00492379 /* WFEncrypt.swift */; };
+		BFC78C6E1F970CF400492379 /* MiscExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC78C6D1F970CF400492379 /* MiscExtension.swift */; };
 		BFCB93521F90A1D900F6FAE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */; };
 		BFCB93541F90A1D900F6FAE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93531F90A1D900F6FAE9 /* ViewController.swift */; };
 		BFCB93571F90A1D900F6FAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB93551F90A1D900F6FAE9 /* Main.storyboard */; };
 		BFCB93591F90A1D900F6FAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */; };
 		BFCB935C1F90A1D900F6FAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB935A1F90A1D900F6FAE9 /* LaunchScreen.storyboard */; };
-		BFCB93671F90A1D900F6FAE9 /* WilFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */; };
-		BFCB93721F90A1D900F6FAE9 /* WilFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */; };
+		BFCB93801F90A28D00F6FAE9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB937F1F90A28C00F6FAE9 /* Settings.swift */; };
+		BFD284C21F99EA9400142D6C /* DisConnectingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD284C01F99EA9400142D6C /* DisConnectingViewController.swift */; };
+		BFD284C31F99EB7900142D6C /* DisConnectingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD284C11F99EA9400142D6C /* DisConnectingViewController.xib */; };
+		BFD284C41F99F6FD00142D6C /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF270E241F998E8400A0A824 /* icomoon.ttf */; };
+		BFD284C61F99FA1F00142D6C /* WFAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD284C51F99FA1F00142D6C /* WFAlertViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BFCB93631F90A1D900F6FAE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFCB93461F90A1D900F6FAE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFCB934D1F90A1D900F6FAE9;
-			remoteInfo = WilFi;
-		};
-		BFCB936E1F90A1D900F6FAE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFCB93461F90A1D900F6FAE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFCB934D1F90A1D900F6FAE9;
-			remoteInfo = WilFi;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		12E9BD6971EF3BDFCA4ABC15 /* Pods-WilFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilFi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WilFi/Pods-WilFi.debug.xcconfig"; sourceTree = "<group>"; };
+		466EA4A8F013E7B1F3C6B2C7 /* Pods_WilFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WilFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83204A0AF133DFDB815E0168 /* Pods-WilFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WilFi.release.xcconfig"; path = "Pods/Target Support Files/Pods-WilFi/Pods-WilFi.release.xcconfig"; sourceTree = "<group>"; };
+		BF11197A1FCD1B2A000C9B96 /* WifiFooterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiFooterTableViewCell.swift; sourceTree = "<group>"; };
+		BF11197B1FCD1B2A000C9B96 /* WifiFooterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiFooterTableViewCell.xib; sourceTree = "<group>"; };
+		BF20F88C1FC434FA00FF56C1 /* AppIcon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon2@2x.png"; sourceTree = "<group>"; };
+		BF20F88F1FC4350000FF56C1 /* AppIcon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon2@3x.png"; sourceTree = "<group>"; };
+		BF20F8901FC4350100FF56C1 /* AppIcon3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon3@3x.png"; sourceTree = "<group>"; };
+		BF20F8911FC4350200FF56C1 /* AppIcon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon3@2x.png"; sourceTree = "<group>"; };
+		BF270E241F998E8400A0A824 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		BF270E261F99B2C800A0A824 /* ConnectingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingViewController.swift; sourceTree = "<group>"; };
+		BF270E2D1F99C82A00A0A824 /* ConnectingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConnectingViewController.xib; sourceTree = "<group>"; };
+		BF5016D71F9F01BA0057CC3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BF5016D91F9F05520057CC3C /* WilFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WilFi.entitlements; sourceTree = "<group>"; };
+		BF5016E41FA02E280057CC3C /* WifiHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WifiHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		BF5016E61FA030C70057CC3C /* WifiHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		BF5016E81FA1C79B0057CC3C /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		BF5016EA1FA1CDF30057CC3C /* WifiInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiInfo.swift; sourceTree = "<group>"; };
+		BF5E5B8E1FB2DA1F00C1A5E0 /* uemura.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = uemura.gpx; path = ../location/uemura.gpx; sourceTree = "<group>"; };
+		BF5E5B8F1FB2DA4700C1A5E0 /* fan.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = fan.gpx; path = ../location/fan.gpx; sourceTree = "<group>"; };
+		BF5E5B901FB42CE600C1A5E0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		BF6C48741F984D7900011E08 /* WFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFAlertViewController.swift; sourceTree = "<group>"; };
+		BF6C48771F98592A00011E08 /* WifiTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WifiTableViewCell.xib; sourceTree = "<group>"; };
+		BF6C48791F98594C00011E08 /* WifiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTableViewCell.swift; sourceTree = "<group>"; };
+		BF711C221FB0509B001692C6 /* WifiTableLoadingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiTableLoadingViewCell.swift; sourceTree = "<group>"; };
+		BF711C231FB0509B001692C6 /* WifiTableLoadingViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiTableLoadingViewCell.xib; sourceTree = "<group>"; };
+		BF711C2A1FB178E7001692C6 /* WifiTableOtherViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiTableOtherViewCell.xib; sourceTree = "<group>"; };
+		BF711C2B1FB178E7001692C6 /* WifiTableOtherViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiTableOtherViewCell.swift; sourceTree = "<group>"; };
+		BF9C000B1FA977A00060F1D3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BF9C000E1FA995630060F1D3 /* TbBTBeaconizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTBeaconizer.h; sourceTree = "<group>"; };
+		BF9C000F1FA995630060F1D3 /* TbBTDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTDefaults.h; sourceTree = "<group>"; };
+		BF9C00101FA995630060F1D3 /* TbBTDeveloperPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTDeveloperPreference.h; sourceTree = "<group>"; };
+		BF9C00111FA995630060F1D3 /* TbBTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTManager.h; sourceTree = "<group>"; };
+		BF9C00121FA995630060F1D3 /* TbBTOnetimeValidationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTOnetimeValidationClient.h; sourceTree = "<group>"; };
+		BF9C00131FA995630060F1D3 /* TbBTPreliminary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTPreliminary.h; sourceTree = "<group>"; };
+		BF9C00141FA995630060F1D3 /* TbBTRegionNotificationSettingOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTRegionNotificationSettingOptions.h; sourceTree = "<group>"; };
+		BF9C00151FA995630060F1D3 /* TbBTSDK-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TbBTSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF9C00161FA995630060F1D3 /* TbBTServiceBeaconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbBTServiceBeaconData.h; sourceTree = "<group>"; };
+		BF9C00171FA9956F0060F1D3 /* libTbBTSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTbBTSDK.a; sourceTree = "<group>"; };
+		BF9C001A1FA9957B0060F1D3 /* OfficialRegion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OfficialRegion.json; sourceTree = "<group>"; };
+		BF9C001E1FA9957B0060F1D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TbBTLocalizable.strings; sourceTree = "<group>"; };
+		BF9C001F1FA9957B0060F1D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TbBTLocalizable.strings; sourceTree = "<group>"; };
+		BF9C00201FA9957B0060F1D3 /* TbBTDeveloperPreference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TbBTDeveloperPreference.plist; sourceTree = "<group>"; };
+		BFA3A4BB1FA6F807008AB45C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		BFA3A4BD1FA702D5008AB45C /* WifiHotSpotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiHotSpotData.swift; sourceTree = "<group>"; };
+		BFB5A51F1FCD255300EC31DE /* TopRoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRoundImageView.swift; sourceTree = "<group>"; };
+		BFB5A5211FCD37F500EC31DE /* WifiTableSectionSeparator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WifiTableSectionSeparator.xib; sourceTree = "<group>"; };
+		BFB5A5231FCD3AA000EC31DE /* WifiTableSectionSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTableSectionSeparator.swift; sourceTree = "<group>"; };
+		BFB5A5261FCFC3A000EC31DE /* fan2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = fan2.gpx; sourceTree = "<group>"; };
+		BFC78C601F90A64600492379 /* WifiConnectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnectData.swift; sourceTree = "<group>"; };
+		BFC78C661F90A92F00492379 /* WFEncrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFEncrypt.swift; sourceTree = "<group>"; };
+		BFC78C6D1F970CF400492379 /* MiscExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscExtension.swift; sourceTree = "<group>"; };
 		BFCB934E1F90A1D900F6FAE9 /* WilFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCB93531F90A1D900F6FAE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +114,10 @@
 		BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCB935B1F90A1D900F6FAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCB935D1F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilFiTests.swift; sourceTree = "<group>"; };
-		BFCB93681F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilFiUITests.swift; sourceTree = "<group>"; };
-		BFCB93731F90A1D900F6FAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCB937F1F90A28C00F6FAE9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BFD284C01F99EA9400142D6C /* DisConnectingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisConnectingViewController.swift; sourceTree = "<group>"; };
+		BFD284C11F99EA9400142D6C /* DisConnectingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisConnectingViewController.xib; sourceTree = "<group>"; };
+		BFD284C51F99FA1F00142D6C /* WFAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WFAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +125,142 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB935F1F90A1D900F6FAE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB936A1F90A1D900F6FAE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BF9C00181FA9956F0060F1D3 /* libTbBTSDK.a in Frameworks */,
+				BF5016D81F9F01BA0057CC3C /* SystemConfiguration.framework in Frameworks */,
+				BFA3A4BC1FA6F807008AB45C /* NetworkExtension.framework in Frameworks */,
+				A11EA08B413017FC192DF06D /* Pods_WilFi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D4D49AE277318D3D0EE8F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C000B1FA977A00060F1D3 /* CoreLocation.framework */,
+				BFA3A4BB1FA6F807008AB45C /* NetworkExtension.framework */,
+				BF5016D71F9F01BA0057CC3C /* SystemConfiguration.framework */,
+				466EA4A8F013E7B1F3C6B2C7 /* Pods_WilFi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF270E281F99C16800A0A824 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C48741F984D7900011E08 /* WFAlertViewController.swift */,
+				BFD284C51F99FA1F00142D6C /* WFAlertViewController.xib */,
+				BF270E261F99B2C800A0A824 /* ConnectingViewController.swift */,
+				BF270E2D1F99C82A00A0A824 /* ConnectingViewController.xib */,
+				BFD284C01F99EA9400142D6C /* DisConnectingViewController.swift */,
+				BFD284C11F99EA9400142D6C /* DisConnectingViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BF6C48761F9858FC00011E08 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C48771F98592A00011E08 /* WifiTableViewCell.xib */,
+				BF6C48791F98594C00011E08 /* WifiTableViewCell.swift */,
+				BF711C2A1FB178E7001692C6 /* WifiTableOtherViewCell.xib */,
+				BF711C2B1FB178E7001692C6 /* WifiTableOtherViewCell.swift */,
+				BF711C231FB0509B001692C6 /* WifiTableLoadingViewCell.xib */,
+				BF711C221FB0509B001692C6 /* WifiTableLoadingViewCell.swift */,
+				BF5016E41FA02E280057CC3C /* WifiHeaderTableViewCell.xib */,
+				BF5016E61FA030C70057CC3C /* WifiHeaderTableViewCell.swift */,
+				BF11197B1FCD1B2A000C9B96 /* WifiFooterTableViewCell.xib */,
+				BF11197A1FCD1B2A000C9B96 /* WifiFooterTableViewCell.swift */,
+				BFB5A5211FCD37F500EC31DE /* WifiTableSectionSeparator.xib */,
+				BFB5A5231FCD3AA000EC31DE /* WifiTableSectionSeparator.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BF9C000C1FA995460060F1D3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C000D1FA995630060F1D3 /* TbBTSDK */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BF9C000D1FA995630060F1D3 /* TbBTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C00191FA9957B0060F1D3 /* Supporting Files */,
+				BF9C000E1FA995630060F1D3 /* TbBTBeaconizer.h */,
+				BF9C000F1FA995630060F1D3 /* TbBTDefaults.h */,
+				BF9C00101FA995630060F1D3 /* TbBTDeveloperPreference.h */,
+				BF9C00111FA995630060F1D3 /* TbBTManager.h */,
+				BF9C00121FA995630060F1D3 /* TbBTOnetimeValidationClient.h */,
+				BF9C00131FA995630060F1D3 /* TbBTPreliminary.h */,
+				BF9C00141FA995630060F1D3 /* TbBTRegionNotificationSettingOptions.h */,
+				BF9C00151FA995630060F1D3 /* TbBTSDK-Bridging-Header.h */,
+				BF9C00161FA995630060F1D3 /* TbBTServiceBeaconData.h */,
+				BF9C00171FA9956F0060F1D3 /* libTbBTSDK.a */,
+			);
+			path = TbBTSDK;
+			sourceTree = "<group>";
+		};
+		BF9C00191FA9957B0060F1D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C001A1FA9957B0060F1D3 /* OfficialRegion.json */,
+				BF9C001B1FA9957B0060F1D3 /* Resources */,
+				BF9C00201FA9957B0060F1D3 /* TbBTDeveloperPreference.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9C001B1FA9957B0060F1D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C001C1FA9957B0060F1D3 /* i18n */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF9C001C1FA9957B0060F1D3 /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				BF9C001D1FA9957B0060F1D3 /* TbBTLocalizable.strings */,
+			);
+			path = i18n;
+			sourceTree = "<group>";
+		};
+		BFC78C621F90A65500492379 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFC78C601F90A64600492379 /* WifiConnectData.swift */,
+				BF5016EA1FA1CDF30057CC3C /* WifiInfo.swift */,
+				BFA3A4BD1FA702D5008AB45C /* WifiHotSpotData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFC78C631F90A8BE00492379 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5A51F1FCD255300EC31DE /* TopRoundImageView.swift */,
+				BFC78C661F90A92F00492379 /* WFEncrypt.swift */,
+				BFC78C6D1F970CF400492379 /* MiscExtension.swift */,
+				BF5016E81FA1C79B0057CC3C /* Server.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		BFCB93451F90A1D900F6FAE9 = {
 			isa = PBXGroup;
 			children = (
+				BF5E5B8F1FB2DA4700C1A5E0 /* fan.gpx */,
+				BFB5A5261FCFC3A000EC31DE /* fan2.gpx */,
+				BF5E5B8E1FB2DA1F00C1A5E0 /* uemura.gpx */,
 				BFCB93501F90A1D900F6FAE9 /* WilFi */,
-				BFCB93651F90A1D900F6FAE9 /* WilFiTests */,
-				BFCB93701F90A1D900F6FAE9 /* WilFiUITests */,
 				BFCB934F1F90A1D900F6FAE9 /* Products */,
+				DA0E5FA8F4FB694CEABD862D /* Pods */,
+				9D4D49AE277318D3D0EE8F6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +268,6 @@
 			isa = PBXGroup;
 			children = (
 				BFCB934E1F90A1D900F6FAE9 /* WilFi.app */,
-				BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */,
-				BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +275,36 @@
 		BFCB93501F90A1D900F6FAE9 /* WilFi */ = {
 			isa = PBXGroup;
 			children = (
+				BF5016D91F9F05520057CC3C /* WilFi.entitlements */,
 				BFCB93511F90A1D900F6FAE9 /* AppDelegate.swift */,
 				BFCB93531F90A1D900F6FAE9 /* ViewController.swift */,
-				BFCB93551F90A1D900F6FAE9 /* Main.storyboard */,
+				BFCB937F1F90A28C00F6FAE9 /* Settings.swift */,
+				BF270E281F99C16800A0A824 /* ViewController */,
+				BF6C48761F9858FC00011E08 /* Cell */,
+				BFC78C631F90A8BE00492379 /* Utils */,
+				BFC78C621F90A65500492379 /* Models */,
 				BFCB93581F90A1D900F6FAE9 /* Assets.xcassets */,
+				BFCB93551F90A1D900F6FAE9 /* Main.storyboard */,
 				BFCB935A1F90A1D900F6FAE9 /* LaunchScreen.storyboard */,
 				BFCB935D1F90A1D900F6FAE9 /* Info.plist */,
+				BF270E241F998E8400A0A824 /* icomoon.ttf */,
+				BF20F88C1FC434FA00FF56C1 /* AppIcon2@2x.png */,
+				BF20F88F1FC4350000FF56C1 /* AppIcon2@3x.png */,
+				BF20F8911FC4350200FF56C1 /* AppIcon3@2x.png */,
+				BF20F8901FC4350100FF56C1 /* AppIcon3@3x.png */,
+				BF5E5B901FB42CE600C1A5E0 /* Settings.bundle */,
+				BF9C000C1FA995460060F1D3 /* Libraries */,
 			);
 			path = WilFi;
 			sourceTree = "<group>";
 		};
-		BFCB93651F90A1D900F6FAE9 /* WilFiTests */ = {
+		DA0E5FA8F4FB694CEABD862D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFCB93661F90A1D900F6FAE9 /* WilFiTests.swift */,
-				BFCB93681F90A1D900F6FAE9 /* Info.plist */,
+				12E9BD6971EF3BDFCA4ABC15 /* Pods-WilFi.debug.xcconfig */,
+				83204A0AF133DFDB815E0168 /* Pods-WilFi.release.xcconfig */,
 			);
-			path = WilFiTests;
-			sourceTree = "<group>";
-		};
-		BFCB93701F90A1D900F6FAE9 /* WilFiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BFCB93711F90A1D900F6FAE9 /* WilFiUITests.swift */,
-				BFCB93731F90A1D900F6FAE9 /* Info.plist */,
-			);
-			path = WilFiUITests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +314,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFCB93761F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFi" */;
 			buildPhases = (
+				59ECB90188D2E5FF6BD9F48B /* [CP] Check Pods Manifest.lock */,
 				BFCB934A1F90A1D900F6FAE9 /* Sources */,
 				BFCB934B1F90A1D900F6FAE9 /* Frameworks */,
 				BFCB934C1F90A1D900F6FAE9 /* Resources */,
+				3409A2A86F115E07ABEE6C26 /* [CP] Embed Pods Frameworks */,
+				9E0EA45D6EADF2E861B120C1 /* [CP] Copy Pods Resources */,
+				BF5016D41F9EF3810057CC3C /* Fabric */,
+				BF17CCD71FA7315D0037C01E /* Run Script[Auto Build Number] */,
+				BF5E5B921FB42D2D00C1A5E0 /* Run Script[Settings.bundle] */,
 			);
 			buildRules = (
 			);
@@ -144,42 +332,6 @@
 			productName = WilFi;
 			productReference = BFCB934E1F90A1D900F6FAE9 /* WilFi.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BFCB93611F90A1D900F6FAE9 /* WilFiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFCB93791F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiTests" */;
-			buildPhases = (
-				BFCB935E1F90A1D900F6FAE9 /* Sources */,
-				BFCB935F1F90A1D900F6FAE9 /* Frameworks */,
-				BFCB93601F90A1D900F6FAE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFCB93641F90A1D900F6FAE9 /* PBXTargetDependency */,
-			);
-			name = WilFiTests;
-			productName = WilFiTests;
-			productReference = BFCB93621F90A1D900F6FAE9 /* WilFiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BFCB936C1F90A1D900F6FAE9 /* WilFiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFCB937C1F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiUITests" */;
-			buildPhases = (
-				BFCB93691F90A1D900F6FAE9 /* Sources */,
-				BFCB936A1F90A1D900F6FAE9 /* Frameworks */,
-				BFCB936B1F90A1D900F6FAE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFCB936F1F90A1D900F6FAE9 /* PBXTargetDependency */,
-			);
-			name = WilFiUITests;
-			productName = WilFiUITests;
-			productReference = BFCB936D1F90A1D900F6FAE9 /* WilFiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,17 +345,21 @@
 				TargetAttributes = {
 					BFCB934D1F90A1D900F6FAE9 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
-					BFCB93611F90A1D900F6FAE9 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BFCB934D1F90A1D900F6FAE9;
-					};
-					BFCB936C1F90A1D900F6FAE9 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BFCB934D1F90A1D900F6FAE9;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -214,6 +370,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = BFCB93451F90A1D900F6FAE9;
 			productRefGroup = BFCB934F1F90A1D900F6FAE9 /* Products */;
@@ -221,8 +378,6 @@
 			projectRoot = "";
 			targets = (
 				BFCB934D1F90A1D900F6FAE9 /* WilFi */,
-				BFCB93611F90A1D900F6FAE9 /* WilFiTests */,
-				BFCB936C1F90A1D900F6FAE9 /* WilFiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,70 +387,162 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB5A5271FCFC3A100EC31DE /* fan2.gpx in Resources */,
+				BF711C2E1FB17BB0001692C6 /* WifiTableOtherViewCell.xib in Resources */,
+				BF20F8961FC4350700FF56C1 /* AppIcon3@3x.png in Resources */,
+				BF711C251FB0509B001692C6 /* WifiTableLoadingViewCell.xib in Resources */,
+				BFD284C41F99F6FD00142D6C /* icomoon.ttf in Resources */,
+				BFD284C31F99EB7900142D6C /* DisConnectingViewController.xib in Resources */,
+				BF270E2E1F99C82A00A0A824 /* ConnectingViewController.xib in Resources */,
+				BF20F8971FC4350700FF56C1 /* AppIcon3@2x.png in Resources */,
+				BF11197D1FCD1B2B000C9B96 /* WifiFooterTableViewCell.xib in Resources */,
+				BF20F8921FC4350700FF56C1 /* AppIcon2@2x.png in Resources */,
+				BF6C48781F98592A00011E08 /* WifiTableViewCell.xib in Resources */,
+				BF20F8951FC4350700FF56C1 /* AppIcon2@3x.png in Resources */,
+				BF9C00231FA9957B0060F1D3 /* TbBTDeveloperPreference.plist in Resources */,
+				BF5E5B911FB42CE600C1A5E0 /* Settings.bundle in Resources */,
+				BF9C00211FA9957B0060F1D3 /* OfficialRegion.json in Resources */,
 				BFCB935C1F90A1D900F6FAE9 /* LaunchScreen.storyboard in Resources */,
 				BFCB93591F90A1D900F6FAE9 /* Assets.xcassets in Resources */,
+				BF9C00221FA9957B0060F1D3 /* TbBTLocalizable.strings in Resources */,
+				BFB5A5221FCD37F500EC31DE /* WifiTableSectionSeparator.xib in Resources */,
+				BF5016E51FA02E280057CC3C /* WifiHeaderTableViewCell.xib in Resources */,
 				BFCB93571F90A1D900F6FAE9 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB93601F90A1D900F6FAE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB936B1F90A1D900F6FAE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BFD284C61F99FA1F00142D6C /* WFAlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3409A2A86F115E07ABEE6C26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilFi/Pods-WilFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59ECB90188D2E5FF6BD9F48B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0EA45D6EADF2E861B120C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WilFi/Pods-WilFi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF17CCD71FA7315D0037C01E /* Run Script[Auto Build Number] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script[Auto Build Number]";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/tools/bump_build_number.sh \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+		BF5016D41F9EF3810057CC3C /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 624fe6b455ae635162726fecc1edaf1bc44eda91 00aea2c1f7025e6d22aa3e5a01d47fa5dd2507d2cbfccb0cf2eef1bf554df462";
+		};
+		BF5E5B921FB42D2D00C1A5E0 /* Run Script[Settings.bundle] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script[Settings.bundle]";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:3:DefaultValue ${APP_VERSION}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\nBUILD_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:4:DefaultValue ${BUILD_NUMBER}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFCB934A1F90A1D900F6FAE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5016EB1FA1CDF30057CC3C /* WifiInfo.swift in Sources */,
+				BFCB93801F90A28D00F6FAE9 /* Settings.swift in Sources */,
+				BF711C241FB0509B001692C6 /* WifiTableLoadingViewCell.swift in Sources */,
 				BFCB93541F90A1D900F6FAE9 /* ViewController.swift in Sources */,
+				BF270E271F99B2C800A0A824 /* ConnectingViewController.swift in Sources */,
+				BF6C48751F984D7900011E08 /* WFAlertViewController.swift in Sources */,
+				BFA3A4BE1FA702D5008AB45C /* WifiHotSpotData.swift in Sources */,
+				BF5016E91FA1C79C0057CC3C /* Server.swift in Sources */,
 				BFCB93521F90A1D900F6FAE9 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB935E1F90A1D900F6FAE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFCB93671F90A1D900F6FAE9 /* WilFiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFCB93691F90A1D900F6FAE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFCB93721F90A1D900F6FAE9 /* WilFiUITests.swift in Sources */,
+				BF11197C1FCD1B2B000C9B96 /* WifiFooterTableViewCell.swift in Sources */,
+				BFB5A5241FCD3AA000EC31DE /* WifiTableSectionSeparator.swift in Sources */,
+				BF711C2D1FB178E8001692C6 /* WifiTableOtherViewCell.swift in Sources */,
+				BFD284C21F99EA9400142D6C /* DisConnectingViewController.swift in Sources */,
+				BF6C487A1F98594C00011E08 /* WifiTableViewCell.swift in Sources */,
+				BFC78C6E1F970CF400492379 /* MiscExtension.swift in Sources */,
+				BFB5A5201FCD255300EC31DE /* TopRoundImageView.swift in Sources */,
+				BF5016E71FA030C70057CC3C /* WifiHeaderTableViewCell.swift in Sources */,
+				BFC78C671F90A92F00492379 /* WFEncrypt.swift in Sources */,
+				BFC78C611F90A64600492379 /* WifiConnectData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BFCB93641F90A1D900F6FAE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFCB934D1F90A1D900F6FAE9 /* WilFi */;
-			targetProxy = BFCB93631F90A1D900F6FAE9 /* PBXContainerItemProxy */;
-		};
-		BFCB936F1F90A1D900F6FAE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFCB934D1F90A1D900F6FAE9 /* WilFi */;
-			targetProxy = BFCB936E1F90A1D900F6FAE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		BF9C001D1FA9957B0060F1D3 /* TbBTLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9C001E1FA9957B0060F1D3 /* en */,
+				BF9C001F1FA9957B0060F1D3 /* ja */,
+			);
+			name = TbBTLocalizable.strings;
+			sourceTree = "<group>";
+		};
 		BFCB93551F90A1D900F6FAE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,91 +671,51 @@
 		};
 		BFCB93771F90A1D900F6FAE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E9BD6971EF3BDFCA4ABC15 /* Pods-WilFi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WilFi/WilFi.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 699NH75U73;
 				INFOPLIST_FILE = WilFi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilFi/Libraries/TbBTSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "852e2fff-2d00-4c72-9b99-8a0675a20ed6";
+				PROVISIONING_PROFILE_SPECIFIER = Wilfi_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/WilFi/Libraries/TbBTSDK/TbBTSDK-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BFCB93781F90A1D900F6FAE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83204A0AF133DFDB815E0168 /* Pods-WilFi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = WilFi/WilFi.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 699NH75U73;
 				INFOPLIST_FILE = WilFi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilFi/Libraries/TbBTSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "354ddf7f-982e-45fc-a83b-a30cc01a69c6";
+				PROVISIONING_PROFILE_SPECIFIER = Wilfi_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/WilFi/Libraries/TbBTSDK/TbBTSDK-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BFCB937A1F90A1D900F6FAE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WilFiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilFi.app/WilFi";
-			};
-			name = Debug;
-		};
-		BFCB937B1F90A1D900F6FAE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WilFiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilFi.app/WilFi";
-			};
-			name = Release;
-		};
-		BFCB937D1F90A1D900F6FAE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WilFiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WilFi;
-			};
-			name = Debug;
-		};
-		BFCB937E1F90A1D900F6FAE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WilFiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fancs.WilFiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WilFi;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -529,24 +736,6 @@
 			buildConfigurations = (
 				BFCB93771F90A1D900F6FAE9 /* Debug */,
 				BFCB93781F90A1D900F6FAE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFCB93791F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFCB937A1F90A1D900F6FAE9 /* Debug */,
-				BFCB937B1F90A1D900F6FAE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFCB937C1F90A1D900F6FAE9 /* Build configuration list for PBXNativeTarget "WilFiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFCB937D1F90A1D900F6FAE9 /* Debug */,
-				BFCB937E1F90A1D900F6FAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

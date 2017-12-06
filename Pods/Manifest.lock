@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - CryptoSwift (0.7.2)
+  - Fabric (1.7.2)
+  - KeychainAccess (3.1.0)
+  - LTMorphingLabel (0.5.6)
+  - MBCircularProgressBar (0.3.5)
+  - NendSDK_iOS (4.0.1)
+  - NVActivityIndicatorView (4.0.1):
+    - NVActivityIndicatorView/Presenter (= 4.0.1)
+  - NVActivityIndicatorView/Presenter (4.0.1)
+  - Reachability (3.2)
+  - SVProgressHUD (2.2.2)
+  - SwiftyJSON (4.0.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Crashlytics
+  - CryptoSwift (= 0.7.2)
+  - Fabric
+  - KeychainAccess
+  - LTMorphingLabel
+  - MBCircularProgressBar
+  - NendSDK_iOS
+  - NVActivityIndicatorView
+  - Reachability
+  - SVProgressHUD
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  CryptoSwift: cd2158be2bf639aabc63ec804707c7137c90157c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  LTMorphingLabel: bdb51d4682e9822da89da6f567bd8aa456fd6650
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  NendSDK_iOS: d93a346d2bc41ee60fcb508f93e0e9dd9910c502
+  NVActivityIndicatorView: 77ed6d7b571643e24899e7858bf9ae2ee4c21f31
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 701559a307bc25e532973d83320b81c3eabd0609
+
+COCOAPODS: 1.2.1
